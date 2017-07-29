@@ -6,7 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 
-
+enableProdMode();
 
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
@@ -18,6 +18,7 @@ import { GallerythreeComponent } from './gallery/child_gallery/gallerythree.comp
 import { GalleryfourComponent } from './gallery/child_gallery/galleryfour.component';
 import { GalleryfiveComponent } from './gallery/child_gallery/galleryfive.component';
 import { GallerysixComponent } from './gallery/child_gallery/gallerysix.component';
+import {GallerysevenComponent} from './gallery/child_gallery/galleryseven.component';
 
 const routing: ModuleWithProviders = RouterModule.forRoot(rootRouterConfig);
 
@@ -33,7 +34,8 @@ const routing: ModuleWithProviders = RouterModule.forRoot(rootRouterConfig);
     GallerythreeComponent,
     GalleryfourComponent,
     GalleryfiveComponent,
-    GallerysixComponent
+    GallerysixComponent,
+    GallerysevenComponent
   ],
   imports: [
     BrowserModule,

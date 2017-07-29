@@ -1,4 +1,9 @@
 # Destiney
+Photo Notes
+
+Myriad Pro, size 20 in photo editor
+Cover pictures 2.72” x 3.99”
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
 

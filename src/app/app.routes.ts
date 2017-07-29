@@ -10,6 +10,8 @@ import { GallerythreeComponent } from './gallery/child_gallery/gallerythree.comp
 import { GalleryfourComponent } from './gallery/child_gallery/galleryfour.component';
 import { GalleryfiveComponent } from './gallery/child_gallery/galleryfive.component';
 import { GallerysixComponent } from './gallery/child_gallery/gallerysix.component';
+import { GallerysevenComponent } from './gallery/child_gallery/galleryseven.component';
+
 
 export const rootRouterConfig: Routes = [
   { path: '', component: HomeComponent},
@@ -22,6 +24,7 @@ export const rootRouterConfig: Routes = [
   { path: 'gallerythree', component: GallerythreeComponent },
   { path: 'galleryfour', component: GalleryfourComponent },
   { path: 'galleryfive', component: GalleryfiveComponent },
-  { path: 'gallerysix', component: GallerysixComponent }
+  { path: 'gallerysix', component: GallerysixComponent },
+  { path: 'galleryseven', component: GallerysevenComponent }
 ];
 
