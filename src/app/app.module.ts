@@ -21,6 +21,8 @@ import { GalleryfiveComponent } from './gallery/child_gallery/galleryfive.compon
 import {GallerysevenComponent} from './gallery/child_gallery/galleryseven.component';
 import { GalleryeightComponent } from './gallery/child_gallery/galleryeight.component';
 import { GallerynineComponent } from './gallery/child_gallery/gallerynine.component';
+import { GallerytenComponent } from './gallery/child_gallery/galleryten.component';
+import { GalleryelevenComponent } from './gallery/child_gallery/galleryeleven.component';
 
 const routing: ModuleWithProviders = RouterModule.forRoot(rootRouterConfig);
 
@@ -39,7 +41,9 @@ const routing: ModuleWithProviders = RouterModule.forRoot(rootRouterConfig);
     // GallerysixComponent,
     GallerysevenComponent,
     GalleryeightComponent,
-    GallerynineComponent
+    GallerynineComponent,
+    GallerytenComponent,
+    GalleryelevenComponent
   ],
   imports: [
     BrowserModule,
